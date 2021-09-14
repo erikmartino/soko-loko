@@ -16,5 +16,6 @@
 }
 
 .cell-a {
-  background-image: url('./img/Character1.png');
+  background-image: url('./assets/Character1.png');
+  background-color: gray;
 }
