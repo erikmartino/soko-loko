@@ -1,8 +1,14 @@
 <div fxLayout="row" fxLayoutAlign="center center">
   <div class="soko-loko-board" *ngIf="board.length === width * height">
     <div class="row" *ngFor="let row of rows()">
-      <div [class]="'cell cell-'+cell" *ngFor="let cell of cells(row)">{{ cell }}</div>
+      <div [class]="'cell cell-'+cell" *ngFor="let cell of cells(row)">
+        {{ cell }}
+      </div>
     </div>
   </div>
-  <div class="soko-loko-error" *ngIf="board.length !== width * height">Invalid board</div>
+  <div class="soko-loko-error" *ngIf="board.length !== width * height">
+    Invalid board
+  </div>
+  <br />
 </div>
+<img src="../assets/test.png" />
