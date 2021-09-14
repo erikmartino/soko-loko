@@ -1,0 +1,13 @@
+.cell {
+  width: 20%;
+  height: 20%;
+  min-width: 80px;
+  max-width: 180px;
+  aspect-ratio: 1;
+  background-color: #ccc;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
