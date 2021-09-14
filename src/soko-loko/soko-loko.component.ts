@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import Character1 from './img/Character1.png';
 
 @Component({
   selector: 'soko-loko-board',
